@@ -1,4 +1,4 @@
-var app = angular.module("sample", ["ngRoute"]);
+var app = angular.module("insert", ["ngRoute"]);
 app.config(['$routeProvider',function($routeProvider){
 
     $routeProvider

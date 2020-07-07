@@ -13,11 +13,11 @@ if(count((array)($info)) > 0)
     $query = "INSERT INTO insert_emp_info(name,email,age) VALUES ('$name','$email', '$age')";//INSERT QUERY
     if(mysqli_query($conn,$query))
     {
-        alert ("DATA INSERTED SUCCESFULLY");
+        echo "DATA INSERTED SUCCESFULLY";
     }
     else
     {
-        alert ("FAILED TO INSERT DATA");
+        alert "FAILED TO INSERT DATA";
     }
 
 
