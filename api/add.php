@@ -1,6 +1,6 @@
 <?php
 require '../dbconfig.php';
-$sql = "select * from user";
+$sql = "SELECT * FROM user";
 $result= $mysqli ->query($sql);
 
 while($row = $result->fetch_assoc())
