@@ -20,6 +20,7 @@
         <label>Age</label><input type="age" name="age" ng-model = "age" class="form-control"><br/>
         <input type="submit" name ="insert" class ="btn btn-success" ng-click = "insert()" value="insert">
         </center>
+        <script src="app/controllers/newController.js"></script>
         
         
         </div>

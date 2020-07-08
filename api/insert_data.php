@@ -1,4 +1,3 @@
-hello world
 
 <?php
 
@@ -17,7 +16,7 @@ if(count((array)($info)) > 0)
     }
     else
     {
-        alert "FAILED TO INSERT DATA";
+        echo "FAILED TO INSERT DATA";
     }
 
 
